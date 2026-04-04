@@ -24,8 +24,8 @@ This project aims to move toward objective transparency by evaluating the mathem
 * **Evaluation Subset:** To ensure rigorous scientific evaluation, XAI methods were only applied to a highly confident subset of the data (the top 3 most confident predictions across all 200 classes).
 
 ### 2. Base XAI Methods
-**LIME (Local Interpretable Model-agnostic Explanations):** A post-hoc method that explains predictions by segmenting images into super-pixels and perturbing them to observe changes in model confidence.
-**LRP (Layer-wise Relevance Propagation):** A model-specific approach that decomposes the final prediction score and redistributes it backwards through the network layers to produce a pixel-wise relevance map.
+* **LIME (Local Interpretable Model-agnostic Explanations):** A post-hoc method that explains predictions by segmenting images into super-pixels and perturbing them to observe changes in model confidence.
+* **LRP (Layer-wise Relevance Propagation):** A model-specific approach that decomposes the final prediction score and redistributes it backwards through the network layers to produce a pixel-wise relevance map.
 
 ### 3. Proposed Evaluation: Consensus Maps & Pixel-Flipping
 ***Consensus Maps:** Min-Max normalization and element-wise mathematical aggregation are used to isolate features where both LIME and LRP agree, filtering out algorithm-specific noise.
