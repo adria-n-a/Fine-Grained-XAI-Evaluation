@@ -46,3 +46,5 @@ This project aims to move toward objective transparency by evaluating the mathem
 │   ├── LRP_Heatmaps/              # Saved .npy arrays for LRP attributions
 │   └── Consensus_Maps/            # Aggregated .npy consensus maps
 └── README.md
+```
+Note on Reproducibility: The pre-computed .npy arrays located in the Heatmaps/ directory are not hosted directly on this repository due to file size constraints. However, running Day2 and Day3 notebooks will automatically generate these folders and populate them locally on your machine.
