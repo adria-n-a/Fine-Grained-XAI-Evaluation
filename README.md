@@ -8,6 +8,13 @@ Evaluating the faithfulness of LIME and LRP consensus maps on the CUB-200-2011 d
 ![Captum](https://img.shields.io/badge/Captum-LRP-brightgreen)
 ![LIME](https://img.shields.io/badge/LIME-Explainability-orange)
 
+## Installation
+To run this project locally, ensure you have Python 3.8+ installed. You can install all required dependencies using `pip`:
+
+```bash
+pip install torch torchvision numpy matplotlib lime captum
+```
+
 ## Project Overview
 Despite achieving high accuracy in image recognition, deep learning models often act as a "black box". Users frequently hesitate to trust the decisions these models make simply because the underlying mathematical reasoning is opaque. While visual Explainable AI (XAI) methods help build user trust by providing visual explanations, their reliability is traditionally only assessed qualitatively.
 
