@@ -32,6 +32,7 @@ This project aims to move toward objective transparency by evaluating the mathem
 * **Pixel-Flipping (AOPC):** Features are sorted by relevance and iteratively perturbed. The drop in classifier confidence is monitored to calculate the Area over the MoRF Curve (AOPC). A higher AOPC indicates a more faithful explanation.
 
 ## 📂 Project Structure
+```text
 ├── Data/
 │   └── confident_subset.csv       # Filtered dataset of top confident predictions
 ├── Notebooks/
