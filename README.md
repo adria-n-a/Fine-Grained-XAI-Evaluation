@@ -32,14 +32,14 @@ This project aims to move toward objective transparency by evaluating the mathem
 * **Pixel-Flipping (AOPC):** Features are sorted by relevance and iteratively perturbed. The drop in classifier confidence is monitored to calculate the Area over the MoRF Curve (AOPC). A higher AOPC indicates a more faithful explanation.
 
 ## 📂 Project Structure
-```text
 ├── Data/
 │   └── confident_subset.csv       # Filtered dataset of top confident predictions
 ├── Notebooks/
 │   ├── Day1_Baseline_ResNet.ipynb # Model fine-tuning and dataset preparation
 │   ├── Day2_LIME_Explainer.ipynb  # LIME implementation & mask generation
 │   ├── Day2_LRP_Explainer.ipynb   # LRP implementation via Captum
-│   └── Day3_Consensus_Map.ipynb   # Normalization, Aggregation, and Pixel-Flipping
+│   ├── Day3_Consensus_Map.ipynb   # Normalization, Aggregation, and Pixel-Flipping
+│   └── Day4_Analysis.ipynb        # AOPC evaluation metrics and visualizations
 ├── Heatmaps/
 │   ├── LIME_Heatmaps/             # Saved .npy arrays for LIME masks
 │   ├── LRP_Heatmaps/              # Saved .npy arrays for LRP attributions
