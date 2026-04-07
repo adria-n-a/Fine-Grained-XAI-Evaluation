@@ -1,7 +1,7 @@
 # Fine-Grained-XAI-Evaluation
 Evaluating the faithfulness of LIME and LRP consensus maps on the CUB-200-2011 dataset.
 
-# Objective Evaluation of XAI Methods in Fine-Grained Classification 🦅
+# Objective Evaluation of XAI Methods in Fine-Grained Classification 
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-ee4c2c.svg)
